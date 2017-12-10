@@ -1,0 +1,1 @@
+let insertDash = num => String(num).replace(/([13579])(?=[13579])/g, '$1-');
